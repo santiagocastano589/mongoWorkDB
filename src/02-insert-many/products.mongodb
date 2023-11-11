@@ -1,0 +1,149 @@
+// products.mongodb
+
+use("pet_store")
+
+db.products.drop() // elimina los documentos creados en la colleccion anteriormente
+
+db.products.insertMany([
+ 
+  {
+    title: "Producto 1",
+    price: 20000,
+    description: "Una descripción del producto 1",
+    category: "Categoría 1",
+    image: "imagen/producto1.jpg",
+  },
+  {
+    title: "Producto 2",
+    price: 30000,
+    description: "Una descripción del producto 2",
+    category: "Categoría 1",
+    image: "imagen/producto2.jpg",
+  },
+  {
+    title: "Producto 3",
+    price: 25000,
+    description: "Una descripción del producto 3",
+    category: "Categoría 3",
+    image: "imagen/producto3.jpg",
+  },
+  {
+    title: "Producto 4",
+    price: 20000,
+    description: "Una descripción del producto 4",
+    category: "Categoría 2",
+    image: "imagen/producto4.jpg",
+  },
+  {
+    title: "Producto 5",
+    price: 10000,
+    description: "Una descripción del producto 5",
+    category: "Categoría 1",
+    image: "imagen/producto5.jpg",
+  },
+  {
+    title: "Producto 6",
+    price: 60000,
+    description: "Una descripción del producto 6",
+    category: "Categoría 6",
+    image: "imagen/producto6.jpg",
+  },
+  {
+    title: "Producto 7",
+    price: 20000,
+    description: "Una descripción del producto 7",
+    category: "Categoría 3",
+    image: "imagen/producto7.jpg",
+  },
+  {
+    title: "Producto 8",
+    price: 50000,
+    description: "Una descripción del producto 8",
+    category: "Categoría 1",
+    image: "imagen/producto8.jpg",
+  },
+  {
+    title: "Producto 9",
+    price: 20000,
+    description: "Una descripción del producto 9",
+    category: "Categoría 9",
+    image: "imagen/producto9.jpg",
+  },
+  {
+    title: "Producto 10",
+    price: 120000,
+    description: "Una descripción del producto 10",
+    category: "Categoría 10",
+    image: "imagen/producto10.jpg",
+  },
+  {
+    title: "Producto 11",
+    price: 210000,
+    description: "Una descripción del producto 11",
+    category: "Categoría 11",
+    image: "imagen/producto11.jpg",
+  },
+  {
+    title: "Producto 12",
+    price: 20200,
+    description: "Una descripción del producto 12",
+    category: "Categoría 1",
+    image: "imagen/producto12.jpg",
+  },
+  {
+    title: "Producto 13",
+    price: 30000,
+    description: "Una descripción del producto 13",
+    category: "Categoría 3",
+    image: "imagen/producto13.jpg",
+  },
+  {
+    title: "Producto 14",
+    price: 420000,
+    description: "Una descripción del producto 14",
+    category: "Categoría 4",
+    image: "imagen/producto14.jpg",
+  },
+  {
+    title: "Producto 15",
+    price: 25500,
+    description: "Una descripción del producto 15",
+    category: "Categoría 1",
+    image: "imagen/producto15.jpg",
+  },
+  {
+    title: "Producto 16",
+    price: 20000,
+    description: "Una descripción del producto 16",
+    category: "Categoría 4",
+    image: "imagen/producto16.jpg",
+  },
+  {
+    title: "Producto 17",
+    price: 70000,
+    description: "Una descripción del producto 17",
+    category: "Categoría 2",
+    image: "imagen/producto17.jpg",
+  },
+  {
+    title: "Producto 18",
+    price: 10000,
+    description: "Una descripción del producto 18",
+    category: "Categoría 1",
+    image: "imagen/producto18.jpg",
+  },
+  {
+    title: "Producto 19",
+    price: 80000,
+    description: "Una descripción del producto 19",
+    category: "Categoría 5",
+    image: "imagen/producto19.jpg",
+  },
+  {
+    title: "Producto 20",
+    price: 90000,
+    description: "Una descripción del producto 20",
+    category: "Categoría 2",
+    image: "imagen/producto20.jpg",
+  },
+])
